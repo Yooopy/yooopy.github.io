@@ -1,0 +1,55 @@
+body {
+  background-color: #242424;
+}
+#header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  top: 2px;
+}
+
+#vg-logo {
+  padding: 5px;
+  width: 40px;
+}
+#main-nav-div {
+  display: flex;
+  width: 100%;
+  background-color: #303030;
+  border-radius: 15px;
+  box-shadow: 0px 2px 20px -5px;
+}
+nav {
+  width: 100%;
+  margin: auto;
+  background-color: #242424;
+}
+
+#nav-text {
+  color: white;
+  width: min-content;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: larger;
+  font-weight: 200;
+}
+
+#logo-text-div {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+#git-logo {
+  margin-right: 10px;
+  height: 30px;
+  margin-top: 2.5mm;
+
+  background-color: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px -2px white;
+}
