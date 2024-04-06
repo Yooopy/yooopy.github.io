@@ -1,5 +1,5 @@
 body {
-  background-color: #242424;
+  background-color: #282828;
 }
 #header {
   position: sticky;
@@ -42,14 +42,20 @@ nav {
   justify-content: center;
   margin-left: 50px;
 }
-
 #git-logo {
-  margin-right: 10px;
-  height: 30px;
-  margin-top: 2.5mm;
-
-  background-color: transparent;
-  border-radius: 50%;
+}
+#git-logo:hover {
   cursor: pointer;
-  box-shadow: 0px 0px 10px -2px white;
+  animation: git-scale 0.5s alternate forwards;
+}
+
+#nav-text:hover {
+  cursor: pointer;
+}
+@keyframes git-scale {
+  0% {
+  }
+  100% {
+    scale: 150%;
+  }
 }
