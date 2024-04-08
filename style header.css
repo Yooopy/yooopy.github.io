@@ -3,7 +3,6 @@ body {
 }
 #header {
   position: sticky;
-  top: 0;
   width: 100%;
   top: 2px;
 }
@@ -42,8 +41,7 @@ nav {
   justify-content: center;
   margin-left: 50px;
 }
-#git-logo {
-}
+
 #git-logo:hover {
   cursor: pointer;
   animation: git-scale 0.5s alternate forwards;
