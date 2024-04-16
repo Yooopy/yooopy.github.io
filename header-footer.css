@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+#header-flex {
+  align-items: center;
+  display: flex;
+  background-color: #35373a;
+  @media (min-width: 768px) {
+    background-image: url("assets/images/vg-logo-bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 200px 200px;
+    box-shadow: 0px 5px 10px -5px #818181;
+  }
+}
+h1 {
+  cursor: help;
+  color: #f1ffe7;
+  margin-left: 5px;
+  font-family: rubik;
+  font-size: x-large;
+  font-weight: 400;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: 10px;
+  font-family: rubik;
+  word-spacing: 10px;
+  font-size: small;
+  color: #f1ffe7;
+}
+a {
+  text-decoration: none;
+  color: #f1ffe7;
+}
