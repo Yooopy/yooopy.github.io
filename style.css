@@ -1,5 +1,15 @@
 /* Palette1 = #F1FFE7 , BackPalette = #35373A , RedPalette = #FF0054 */
-
+::-webkit-scrollbar {
+  width: 11px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #aeaeae;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #242424;
+}
 body {
   transition: all 1s ease-in-out;
 }
@@ -259,9 +269,15 @@ hr {
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  padding: 15px;
+
   display: flex;
   box-shadow: 0px 0px 15px -3px #5e5e5e;
+  @media (max-width: 798px) {
+    padding: 10px;
+  }
+  @media (min-width: 798px) {
+    padding: 15px;
+  }
 }
 .social-divs:hover {
   cursor: pointer;
